@@ -12,6 +12,7 @@ But bellow follows an example of use of the class.
 
 Creating three cache objects, the first one has two seconds to expires.
 The other will expire in 10 minutes, as defined by default.
+The sleep is used in order to expire the first item.
 
 ```php
 $cache = new Cache();
