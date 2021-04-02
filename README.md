@@ -10,8 +10,10 @@ But bellow follows an example of use of the class.
 
 ### Example:
 
-Instantiating one cache object with the default parameters ($folder='cache/', $name = 'api', $extension = '.cache').
+Instantiating one cache object with the default parameters 
+Default: $folder='cache/', $name = 'api', $extension = '.cache'.
 These parameters define the cache folder and file name and extension.
+
 Creating three cache items, the first one has two seconds to expires.
 The other will expire in 10 minutes, as defined by default.
 The sleep is used in order to expire the first item.
