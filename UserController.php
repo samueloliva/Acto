@@ -1,4 +1,4 @@
-<? 
+<?php
 
 /**
  * A way of creating short methods for UserController would be 
